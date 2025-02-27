@@ -1,0 +1,17 @@
+/* Order.css */
+
+.table-container {
+  position: relative;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+}
+
+.sticky-header thead th {
+  position: sticky;
+  top: 0;
+  background-color: #f8f9fa; /* Adjust background color as needed */
+  z-index: 1; /* Ensure header is above other content */
+}

@@ -1,0 +1,111 @@
+/* Custom CSS for UploadModal */
+
+.btn-light-green {
+  background-color: #90ee90;
+  color: white;
+}
+
+.btn-light-green:hover {
+  background-color: #7ed37e;
+  color: white;
+}
+
+.modal-header {
+  justify-content: center;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.modal-body {
+  text-align: left;
+}
+
+.custom-file-upload {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: white;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  cursor: pointer;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+
+.upload-icon {
+  margin-right: 10px;
+}
+
+/* Custom class for links */
+.upload-link {
+  color: #0000ee;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.upload-link:hover {
+  color: #551a8b;
+}
+
+@media (max-width: 767px) {
+  .modal-dialog {
+    max-width: 95%;
+    margin: 20px auto;
+  }
+
+  .modal-header,
+  .modal-body {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .modal-title {
+    font-size: 1.25rem;
+  }
+
+  .form-label {
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+
+  .custom-file-upload {
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .upload-icon {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .modal-body .mb-3 {
+    margin-bottom: 1rem;
+  }
+
+  .btn-light-green {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .upload-link {
+    font-size: 0.9rem;
+    display: block;
+    margin-top: 10px;
+  }
+}

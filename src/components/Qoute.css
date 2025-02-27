@@ -1,0 +1,27 @@
+/* Add this CSS to your stylesheet */
+
+.table-container {
+  position: relative;
+  overflow-x: auto;
+}
+
+.sticky-header thead th {
+  position: sticky;
+  top: 0;
+  background-color: #f8f9fa; /* Adjust background color as needed */
+  z-index: 1; /* Ensure header is above other content */
+}
+
+/* Pagination styling */
+.pagination {
+  margin-top: 1rem;
+}
+
+.page-item.active .page-link {
+  background-color: #007bff; /* Adjust active page color as needed */
+  border-color: #007bff;
+}
+
+.page-link {
+  border-radius: 0; /* Remove border radius for a clean look */
+}

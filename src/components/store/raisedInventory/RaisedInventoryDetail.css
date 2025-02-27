@@ -1,0 +1,28 @@
+/* RaisedInventoryDetail.css */
+
+.raised-inventory-details {
+  display: flex;
+  flex-direction: column;
+  /* width: 80vw; */
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+}
+
+.actions {
+  margin-bottom: 16px;
+}
+
+.table-container {
+  max-height: 600px; /* Adjust based on needs */
+  overflow: auto;
+}
+
+/* Optional: Customize pagination styling */
+.MuiPagination-root {
+  margin-top: 16px;
+}
